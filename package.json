@@ -1,0 +1,14 @@
+{
+  "name": "grupo3-factory-method",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": "24.x" },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "dev": "npm run build && node dev/server.js",
+    "start": "node dev/server.js"
+  },
+  "dependencies": { "pdf-lib": "1.17.1" },
+  "devDependencies": { "jszip": "3.10.1" }
+}

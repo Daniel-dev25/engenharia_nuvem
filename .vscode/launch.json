@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Grupo 3 — depurar Factory Method",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/dev/server.js",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Preparar material",
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**", "${workspaceFolder}/node_modules/**"]
+    }
+  ]
+}

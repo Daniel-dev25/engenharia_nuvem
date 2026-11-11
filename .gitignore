@@ -1,0 +1,5 @@
+node_modules/
+.vercel/
+public/codigo.json
+public/pedidos.json
+public/projeto-grupo3.zip

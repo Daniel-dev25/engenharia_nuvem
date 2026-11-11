@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="460" viewBox="0 0 1080 460" role="img" aria-labelledby="title desc">
+<title id="title">Factory Method no CloudReports</title>
+<desc id="desc">ExportacaoCSV e ExportacaoPDF herdam de Exportacao e criam RelatorioCSV e RelatorioPDF. Os dois relatórios herdam de Relatorio. Exportacao usa Relatorio.</desc>
+<defs>
+<marker id="heranca" markerWidth="13" markerHeight="13" refX="12" refY="6.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1 L12 6.5 L1 12 Z" fill="#ffffff" stroke="#8677b1" stroke-width="1.5"/></marker>
+<marker id="usa" markerWidth="12" markerHeight="12" refX="11" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1 L11 6 L1 11" fill="none" stroke="#7c55d8" stroke-width="1.5"/></marker>
+</defs>
+<rect width="1080" height="460" fill="#fcfbff"/>
+<g font-family="Arial, sans-serif" fill="#261d3d">
+<g fill="none" stroke="#8677b1" stroke-width="1.5">
+<path d="M60 357 H28 V114 H60" marker-end="url(#heranca)"/><path d="M60 263 H28"/>
+<path d="M1020 357 H1052 V114 H1020" marker-end="url(#heranca)"/><path d="M1020 263 H1052"/>
+</g>
+<g fill="none" stroke="#7c55d8" stroke-width="1.7" stroke-dasharray="6 5" marker-end="url(#usa)">
+<path d="M430 116 H650"/><path d="M430 263 H650"/><path d="M430 357 H650"/>
+</g>
+<g fill="#ffffff" stroke="#d9d1ea" stroke-width="1.4">
+<rect x="60" y="42" width="370" height="146" rx="12"/><rect x="650" y="42" width="370" height="146" rx="12"/>
+<rect x="60" y="224" width="370" height="78" rx="10"/><rect x="650" y="224" width="370" height="78" rx="10"/>
+<rect x="60" y="318" width="370" height="78" rx="10"/><rect x="650" y="318" width="370" height="78" rx="10"/>
+<path d="M60 112 H430 M650 112 H1020"/>
+</g>
+<g font-size="11" letter-spacing="1.5" fill="#7c55d8" font-weight="700">
+<text x="82" y="69">CRIADOR BASE</text><text x="672" y="69">PRODUTO BASE</text>
+<text x="82" y="247">CRIADOR CONCRETO</text><text x="672" y="247">PRODUTO CONCRETO</text>
+<text x="82" y="341">CRIADOR CONCRETO</text><text x="672" y="341">PRODUTO CONCRETO</text>
+</g>
+<g font-size="22" font-weight="700">
+<text x="82" y="97">Exportacao</text><text x="672" y="97">Relatorio</text>
+<text x="82" y="280">ExportacaoCSV</text><text x="672" y="280">RelatorioCSV</text>
+<text x="82" y="374">ExportacaoPDF</text><text x="672" y="374">RelatorioPDF</text>
+</g>
+<g font-family="monospace" font-size="14" fill="#655c76">
+<text x="82" y="141">+ executar(pedidos)</text><text x="82" y="168">+ criarRelatorio(): Relatorio</text>
+<text x="672" y="147">+ gerar(pedidos)</text>
+</g>
+<g font-size="12" fill="#7c55d8" text-anchor="middle">
+<text x="540" y="104">usa o contrato</text><text x="540" y="251">cria</text><text x="540" y="345">cria</text>
+</g>
+<text x="60" y="438" font-size="12" fill="#655c76">Triângulo aberto → herança · Seta tracejada → dependência · O método fábrica é sobrescrito nos criadores concretos.</text>
+</g></svg>

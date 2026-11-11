@@ -1,0 +1,1 @@
+{"$schema":"https://openapi.vercel.sh/vercel.json","framework":null,"buildCommand":"npm run build","outputDirectory":"public","functions":{"api/relatorio.js":{"maxDuration":10}},"name":"grupo3-factory-method"}
